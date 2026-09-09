@@ -1,6 +1,6 @@
 body {
   font-family: 'Inter', sans-serif; /* Fuente genérica */
-  background-color: #fbf0c9; /* Color de fondo claro */
+  background-color: #fdd6a9;
   color: #6a655e; 
   line-height: 1.6;
   margin: 0;
@@ -40,7 +40,7 @@ nav {
   flex-direction: column;
   width: 70%;
   font-weight: bold;
-/*  background-color: #6b2223; */ 
+/*  background-color: #fff1e1; */ 
   z-index: 999;
   overflow: hidden; /* Para que los bordes redondeados se apliquen bien */
   padding: 1rem;
@@ -67,7 +67,7 @@ nav a {
   display: block;
   padding: 0.75rem 1rem;
   color: #bc654a;
-  background-color: #FBF0C9;
+  background-color: #fdd6a9;
   border-radius: 0.75rem;
   text-decoration: none;
   transition: background-color 0.3s ease;
