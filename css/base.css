@@ -1,14 +1,14 @@
 body {
-  font-family: 'Inter', sans-serif; /* Fuente genérica */
-  background-color: #fdd6a9;
-  color: #6a655e; 
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #fdd6a9; /* Color del fondo */
+  color: #413d36; /* Color predeterminado del texto */ 
+  line-height: 1.6; /* Espaciado */
+  margin: 0; /* Deshabilita el margen en todas las direcciones del body para que no parezca "dentro de una caja" (por default es 8px) */
+  padding: 0; /* Lo mismo que el margen (por default es 0 en Firefox, asegura estilo en todos los navegadores)*/
 }
 
 header {
-  background-color: #bc654a; /* Rojo oscuro */
+  background-color: #bc654a;  
   padding: 1rem 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   width: 100%;
@@ -32,13 +32,14 @@ h1 {
   margin: 0; /* Eliminar margen por defecto del h1 */
   color: #fdd6a9;
   text-shadow: 0 4px 4px rgba(0,0,0,0.5);
+  text-align: center;
 }
 
 /* Menú de navegación */
 nav {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 90%;
   font-weight: bold;
 /*  background-color: #fff1e1; */ 
   z-index: 999;
@@ -77,11 +78,11 @@ nav a {
 }
 
 nav a:hover, nav a:focus {
-  background-color: #e0d7b5;
+  background-color: #ffebd3;
 }
 
 main {
-  padding: 1rem;
+  padding: 0.5rem;
   max-width: 1200px;
   margin: 2rem auto;
     /* Margen superior e inferior para separar del encabezado y del pie de
@@ -98,17 +99,11 @@ section {
 
 article {
   margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
-}
-
-article:last-child {
-  border-bottom: none;
 }
 
 h2 {
   font-size: 1.5rem; /* Tamaño de fuente para h2 */
-  font-weight: 600;
+  font-weight: bold;
   color: #4e4b46;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -116,7 +111,7 @@ h2 {
 
 h3 {
   font-size: 1.25rem; /* Tamaño de fuente para h3 */
-  font-weight: 500;
+  font-weight: bold;
   color: #4e4b46;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -124,13 +119,11 @@ h3 {
 
 p {
   margin-bottom: 1rem;
-  color: #6a655e; 
 }
 
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 0.5rem;
   display: block;
   margin: 1rem auto;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
@@ -161,4 +154,5 @@ footer p {
 figcaption {
   text-align: center;
   font-style: italic;
+  color: #be8c6e; /* Menor contraste para no distraer */
 }
